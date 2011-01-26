@@ -21,16 +21,21 @@ body.dark {
 	color: #e9e8e7;
 }
 body.dark h1 {
-	padding-top: 100px;
-	padding-bottom: 40px;
-	font: bold 72pt FreeSans, Free Sans, Helvetica, Arial, sans-serif;
 	color: #8b8685;
 	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 40px;
 }
-.footer {
+body.dark h1, .big-heading {
+	font: bold 72pt FreeSans, Free Sans, Helvetica, Arial, sans-serif;
+}
+body.dark a {
+	color: #c9c8c7;
+}
+body.dark .footer {
 	color: #555657;
 }
-.footer a {
+body.dark .footer a {
 	color: #6d6e6f;
 	text-decoration: none;
 }
