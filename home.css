@@ -4,3 +4,18 @@ p {
 a {
 	font-weight: bold;
 }
+table {
+	margin: 0 auto;
+}
+th {
+	text-align: right;
+}
+td {
+	text-align: center;
+	padding-left: 10px;
+}
+td a:link,
+td a:visited {
+	color: #757473;
+	text-decoration: none;
+}
