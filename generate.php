@@ -18,6 +18,7 @@ $list = array(
 	'scenesetter' => '',
 	'friendlist' => '',
 	'gps' => 'http://blog.dt.in.th/2011/04/gps/',
+	'crewracing' => '',
 );
 
 echo '
