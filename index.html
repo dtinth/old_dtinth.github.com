@@ -5,6 +5,7 @@
 <title>dtinth's HTML Stuff!</title>
 <link rel="stylesheet" href="css.css">
 <link rel="stylesheet" href="home.css">
+<meta property="fb:admins" content="1658509977" />
 </head><body class="dark">
 
 <h1>my html stuff</h1>
