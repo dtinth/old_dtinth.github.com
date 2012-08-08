@@ -1,51 +1,42 @@
 <!DOCTYPE html>
-<html><head>
-<meta charset="utf-8"><meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>dtinth's HTML Stuff!</title>
-<link rel="stylesheet" href="css.css">
-<link rel="stylesheet" href="home.css">
-<meta property="fb:admins" content="1658509977" />
-</head><body class="dark">
+<meta charset=utf-8>
+<title>dtinth's Projects on GitHub</title>
+<link href="http://dt.in.th/bootstrap-dtinthstyle/css/bootstrap.min.css" rel="stylesheet" />
+<link href="http://dt.in.th/bootstrap-dtinthstyle/css/bootstrap-responsive.min.css" rel="stylesheet" />
+<style>
+.loading { text-align: center; }
+.repository .name { margin-bottom: -6px; }
+</style>
+<body>
 
-<h1>my html stuff</h1>
-<div class="content-pad center">
-	<p>I'll put links to my HTML projects here.</p>
-	<table>
-		<tr>
-			<th><a href="crew-standings/">crew-standings</a></th>
-			<td><a href="https://github.com/dtinth/crew-standings">repo</a></td>
-		</tr>
-		<tr>
-			<th><a href="crew-to-play/">crew-to-play</a></th>
-			<td><a href="https://github.com/dtinth/crew-to-play">repo</a></td>
-			<td><a href="http://blog.dt.in.th/2011/02/crew-to-play/">blog</a></td>
-		</tr>
-		<tr>
-			<th><a href="reminder/">reminder</a></th>
-			<td><a href="https://github.com/dtinth/reminder">repo</a></td>
-		</tr>
-		<tr>
-			<th><a href="scenesetter/">scenesetter</a></th>
-			<td><a href="https://github.com/dtinth/scenesetter">repo</a></td>
-		</tr>
-		<tr>
-			<th><a href="friendlist/">friendlist</a></th>
-			<td><a href="https://github.com/dtinth/friendlist">repo</a></td>
-		</tr>
-		<tr>
-			<th><a href="gps/">gps</a></th>
-			<td><a href="https://github.com/dtinth/gps">repo</a></td>
-			<td><a href="http://blog.dt.in.th/2011/04/gps/">blog</a></td>
-		</tr>
-		<tr>
-			<th><a href="crewracing/">crewracing</a></th>
-			<td><a href="https://github.com/dtinth/crewracing">repo</a></td>
-		</tr>
-	</table>
+<div class="container">
+  <h1>Thai's Projects on GitHub</h1>
+  <div class="loading" id="loading">
+    <p><b>Now loading repositories...</b></p>
+    <p id="noscript">(JavaScript is required)</p>
+  </div>
+  <div id="repos">
+  </div>
 </div>
-<div class="footer">
-	<p>for more details: <b><a href="https://github.com/dtinth">github.com/dtinth</a></b></p>
-</div>
+<script>
+document.getElementById('noscript').style.display = 'none'
+var categories = []
+  , languageOverride = {}
+  , descriptionOverride = {}
+  , repoData
+function loadRepoData(data) { repoData = data }
+function overrideLanguage(data) { languageOverride = data }
+function overrideDescription(data) { descriptionOverride = data }
+function category(name) {
+  var cat = { name: name, repositories: [] }
+  var arr = [].slice.call(arguments, 1)
+  categories.push(cat)
+  for (var i = 0; i < arr.length; i ++) {
+    cat.repositories.push(arr[i])
+  }
+}
+</script>
+<script src="https://api.github.com/users/dtinth/repos?per_page=100&amp;sort=pushed&amp;callback=loadRepoData"></script>
+<script src="categories.js"></script>
+<script src="repositories.js"></script>
 
-</body></html>
