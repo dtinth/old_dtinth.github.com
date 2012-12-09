@@ -1,6 +1,7 @@
 
 /*global category overrideLanguage overrideDescription */
 
+
 category('Web / AJAX Applications'
 , 'ttycast'
 , 'dtinthstagram'
@@ -17,6 +18,13 @@ category('Web Toys'
 , 'reminder'
 )
 
+category('Music Games'
+, 'partytime'
+, 'i2DX'
+, 'OJN2BMS'
+, 'KrazyRenderer'
+)
+
 category('User Scripts / User Styles'
 , 'dark-facebook'
 )
@@ -30,8 +38,7 @@ category('Productivity'
 category('Command-Line Utilities'
 , 'GrowlToTheTunes'
 , 'stfu', 'pmd', 'tos3'
-, 'ablend', 'ssc2nd', 'sm2tap', 'OJN2BMS'
-, 'KrazyRenderer'
+, 'ablend', 'ssc2nd', 'sm2tap'
 )
 
 category('Firefox / XUL'
@@ -42,6 +49,8 @@ category('Firefox / XUL'
 category('Node.js / JavaScript'
 , 'bms.js'
 , 'twcs.js'
+, 'hamlike'
+, 'connect-json'
 )
 
 category('PHP'
