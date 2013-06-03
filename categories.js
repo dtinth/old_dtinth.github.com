@@ -1,4 +1,3 @@
-
 /*global category overrideLanguage overrideDescription */
 
 
@@ -6,6 +5,7 @@ category('Web / AJAX Applications'
 , 'ttycast'
 , 'dtinthstagram'
 , 'i2DX'
+, 'shoutpraises'
 , 'DtWiki'
 , 'friendlist'
 , 'dtinth.github.com'
@@ -16,6 +16,7 @@ category('Web Toys'
 , 'scenesetter'
 , 'gps'
 , 'reminder'
+, 'hanoi'
 )
 
 category('Music Games'
@@ -36,6 +37,7 @@ category('Productivity'
 
 
 category('Command-Line Utilities'
+, 'fbm', 'kuqr'
 , 'GrowlToTheTunes'
 , 'stfu', 'pmd', 'tos3'
 , 'ablend', 'ssc2nd', 'sm2tap'
@@ -51,6 +53,8 @@ category('Node.js / JavaScript'
 , 'twcs.js'
 , 'hamlike'
 , 'connect-json'
+, 'headless-terminal',
+, 'bsearch'
 )
 
 category('PHP'
@@ -80,6 +84,9 @@ category('unlist'
 , 'express-gzip'
 , 'remote-itunes-notify'
 , 'canvasrenderer2'
+, 'eXceedGit'
+, 'screen-buffer'
+, 'ttycast-client'
 )
 
 
