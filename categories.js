@@ -53,7 +53,7 @@ category('Node.js / JavaScript'
 , 'twcs.js'
 , 'hamlike'
 , 'connect-json'
-, 'headless-terminal',
+, 'headless-terminal'
 , 'bsearch'
 )
 
