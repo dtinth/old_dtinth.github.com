@@ -55,6 +55,13 @@ category('Node.js / JavaScript'
 , 'connect-json'
 , 'headless-terminal'
 , 'bsearch'
+, 'code-runner'
+)
+
+category('Ruby'
+, 'codejom56'
+, 'tubtim'
+, 'wtfcommit'
 )
 
 category('PHP'
@@ -87,6 +94,7 @@ category('unlist'
 , 'eXceedGit'
 , 'screen-buffer'
 , 'ttycast-client'
+, 'replays'
 )
 
 
